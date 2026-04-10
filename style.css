@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --gray-900: #181d27;
+  --main-green: #039122;
+  --white: #ffffff;
+  --brown-800: #ca7f4d;
+  --gray-400: #a4a7ae;
+  --light-green:#DDFDE4;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 16px 100px;
+}
+
+.nav-link {
+  color: var(--gray-900);
+}
+.sign-up-btn {
+  background-color: var(--main-green);
+  color: var(--white);
+  border-radius: 6px;
+  padding: 11px 42px;
+  border: none;
+  margin-right: 20px;
+}
+.sign-in-btn {
+  color: var(--brown-800);
+  border-radius: 6px;
+  padding: 11px 19px;
+  border: 1px solid var(--brown-800);
+}
+
+/* main -header */
+header {
+  background-image: url(assets/hero-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+header h1{
+    color: var(--light-green);
+    max-width: 60%;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+header span{
+    padding: 2px 10px;
+    background-color: var(--brown-800);
+    font-weight: 700;
+    font-size: 50px;
+    border-radius: 11px;
+}
+
+header p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--light-green);
+    max-width: 55%;
+    padding: 15px 0;
+}
+
+.sign-in-btn-hero{
+    color: var(--brown-800);
+  border-radius: 6px;
+  padding: 11px 42px;
+  border: 1px solid var(--brown-800);
+  background-color: transparent; 
+}
+.sign-up-btn-hero{
+background-color: var(--main-green);
+  color: var(--white);
+  border-radius: 6px;
+  padding: 11px 42px;
+  border: none;
+  margin-right: 20px; 
+}
+
+.message-sqr-wrapper{
+    position: absolute;
+    right: 70px;
+    /* bottom: -20; */
+}
+
+@media (max-width: 500px) {
+    .navbar {
+    padding: 20px 0;
+  }
+  /* main -header */
+  header {
+    background-image: url(assets/hero-img-mobile.png);
+    padding: 4rem 0;
+    }
+  header h1{
+    max-width: 100%;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+header span{
+    padding: 2px 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+header p{
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+.btn-hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.sign-up-btn-hero{
+    min-width: 100%;
+}
+}
