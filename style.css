@@ -7,6 +7,7 @@
   --brown-800: #ca7f4d;
   --gray-400: #a4a7ae;
   --light-green:#DDFDE4;
+  --gray-700:#414651;
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -15,7 +16,7 @@ body {
 .navbar {
   font-weight: 500;
   font-size: 18px;
-  padding: 16px 100px;
+  padding: 16px ;
 }
 
 .nav-link {
@@ -96,6 +97,33 @@ background-color: var(--main-green);
     /* bottom: -20; */
 }
 
+/* section-2 */
+.section-2-div{
+    padding: 40px 0;
+}
+
+.section-2-div h4{
+    color: var(--gray-900);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.section-2-div h1{
+   font-weight: 700;
+   font-size: 48px;
+   color: var(--brown-800);
+   max-width: 50%;
+   margin: auto;
+   padding: 20px 0;
+}
+.section-2-div p{
+   font-weight: 500;
+   font-size: 20px;
+   color: var(--gray-700);
+   max-width: 40%;
+   margin: auto;
+}
+
 @media (max-width: 500px) {
     .navbar {
     padding: 20px 0;
@@ -131,4 +159,20 @@ header p{
 .sign-up-btn-hero{
     min-width: 100%;
 }
+/* section-2 */
+.section-2-div{
+    padding: 25px 0;
+}
+.section-2-div h4{
+    font-size: 14px;
+}
+.section-2-div h1{
+   font-size: 20px;
+   max-width: 100%;
+}
+.section-2-div p{
+   font-size: 16px;
+   max-width: 100%;
+}
+
 }
