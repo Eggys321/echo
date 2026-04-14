@@ -47,7 +47,7 @@ header {
   padding: 5rem 0;
   display: flex;
   align-items: center;
-  position: relative;
+  /* position: relative; */
 }
 
 header h1{
@@ -92,7 +92,8 @@ background-color: var(--main-green);
 }
 
 .message-sqr-wrapper{
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     right: 70px;
     /* bottom: -20; */
 }
