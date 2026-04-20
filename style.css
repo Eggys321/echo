@@ -167,13 +167,13 @@ background-color: var(--main-green);
 }
 
 .scroll-x {
-  overflow-x: auto;
-  flex-wrap: nowrap; 
+  /* overflow-x: auto;
+  flex-wrap: nowrap;  */
   }
 
 .scroll-x img {
-  flex-shrink: 0;
-  border-radius: 100%;
+  /* flex-shrink: 0;
+  border-radius: 100%; */
   /* width: 22%; */
 }
 
@@ -206,7 +206,7 @@ header p{
     .navbar {
     padding: 20px 0;
   }
-  /* main -header */
+  /* main-header */
   header {
     background-image: url(assets/hero-img-mobile.png);
     padding: 4rem 0;
@@ -282,10 +282,10 @@ header p{
 .section-3-parent-div .cards{
     height: 150px;
 }
-.scroll-x img {
+/* .scroll-x img {
   flex-shrink: 0;
   border-radius: 100%;
   width: 24%;
-}
+} */
 
 }
